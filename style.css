@@ -9,7 +9,7 @@
 body{
   padding: 0 10px;
   min-height: 100vh;
-  background-image: url(Desktop\ -\ 1.png);
+  background-image: url(9791334.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -21,14 +21,11 @@ body{
 
 }
 
-.empty{
-    content: "";
-    min-height: 1080px;
-}
 
 .wrapper{
-    display: flex;
-    flex-direction: column;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
   width: 650px;
   height: 650px;
   background: #fff;
@@ -38,8 +35,22 @@ body{
   margin: auto;
   justify-content: center;
   align-items: center;
-  opacity: 0.5;
+  background-image: url(Screenshot\ 2025-02-21\ 152203.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -5px -1px;
+  animation: move l0s linear infinite;
   
+}
+
+@keyframes move {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
 }
 .wrapper header{
   display: flex;
